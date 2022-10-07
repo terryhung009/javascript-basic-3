@@ -23,14 +23,46 @@
 
 /* Object */
 
-var person = new Object();
-person.name = 'Kuro';
-person.job = 'Front-end developer';
-person.sayName = function(){
-  alert( this.name) ;
-};
+// var person = new Object();
+// person.name = 'Kuro';
+// person.job = 'Front-end developer';
+// person.sayName = function(){
+//   alert( this.name) ;
+// };
 
-person.sayName();
+// person.sayName();
+
+// var person = {
+//   name: 'Kuro',
+//   job: 'Front-end developer',
+//   sayName: function(){
+//     alert( this.name ) ;
+//   },
+// }
+
+// console.log(person.name);
+// person.sayName();
+
+// var person = {
+//   name: 'Kuro',
+//   job: 'Front-end developer',
+//   sayName: function(){
+//     alert( this.name ) ;
+//   },
+// }
+// console.log(person["name"]);
+// person["sayName"]();
+
+var obj = { };
+obj.name = 'Object';
+
+console.log(obj.name);
+
+
+
+
+
+
 
 
 
